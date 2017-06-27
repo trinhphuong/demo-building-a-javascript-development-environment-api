@@ -6,7 +6,7 @@
   "scripts": {
 	"start-message": "babel-node startMessage.js",
 	"generate-mock-data": "babel-node index",
-	"start-json-server": "json-server --watch db.json --port 80",
+	"start-json-server": "json-server --watch db.json --port 3000",
 	"prestart": "npm-run-all --parallel start-message generate-mock-data",
 	"start": "npm-run-all --parallel start-json-server"
   },
